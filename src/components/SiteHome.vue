@@ -65,6 +65,7 @@ export default {
         padding: 16px;
         box-sizing: border-box;
         width: 100%;
+        margin-bottom: 32px;
     }
 </style>
 
