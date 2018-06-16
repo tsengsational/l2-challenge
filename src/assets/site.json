@@ -1,0 +1,60 @@
+{
+    "title": "Shooky's Cookies",
+    "pages": ["About", "Blog", "Visit"],
+    "hero": {
+        "img": "https://images.unsplash.com/photo-1486893732792-ab0085cb2d43",
+        "title": "Baked fresh, every day.",
+        "content": "Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor.",
+        "action": "Order a Batch"
+    },
+    "cookies": [
+        {
+            "img": "https://images.unsplash.com/photo-1464195085758-89f3e55e821e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=789207b58f9d964aa1eb5446cc367555&auto=format&fit=crop&w=749&q=80",
+            "name": "Classic Chocolate Chip"
+        },
+        {
+            "img": "https://images.unsplash.com/photo-1481233673589-df886804ee96?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=512b51b08d835fb1493b1ed408a48fe9&auto=format&fit=crop&w=750&q=80",
+            "name": "Sugar and Spice"
+        },
+        {
+            "img": "https://images.unsplash.com/photo-1453831135932-f2f7e09c0198?ixlib=rb-0.3.5&s=67e62d95c5abb72d809526c9c1a79b0a&auto=format&fit=crop&w=758&q=80",
+            "name": "More Than Vanilla"
+        },
+        {
+            "img": "https://images.unsplash.com/photo-1436564989038-18b9958df72b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=816c11a0efc2cd6b357cceb0b8adfc6f&auto=format&fit=crop&w=750&q=80",
+            "name": "Almond Cookies"
+        }
+    ],
+    "cards": [
+        {
+            "title": "About Shooky's Cookies",
+            "content": "Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed diam nomummy nibh eusimod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+        },
+        {
+            "title": "Our Recipes",
+            "content": "Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed diam nomummy nibh eusimod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+        }
+    ],
+    "blog": {
+        "title": "Crumbs for Thought",
+        "entries": [
+            {
+                "title": "New location on Grand Street!",
+                "content": "Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor."
+            },
+            {
+                "title": "We've made the perfect cookie.",
+                "content": "Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor."
+            },
+            {
+                "title": "A special treat for the long weekend",
+                "content": "Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor."
+            }
+        ]
+    },
+    "footer": {
+        "phone": "123.456.7890",
+        "email": "milk@shookyscookies.com",
+        "location": "12 Chipt St, New York, NY 00000"
+    }
+}
