@@ -44,5 +44,22 @@ export default {
             }
         }
     }
+
+    @media (min-width: $mobile-break-pt) {
+        .blog {
+            width: 1100px;
+            position: relative;
+            left: calc(50vw - 550px);
+            .blog-entries {
+                margin-bottom: 48px;
+                .blog-entry {
+                    display: inline-block;
+                    width: calc(1100px/3);
+                    box-sizing: border-box;
+                    padding: 16px 16px 16px 0;
+                }
+            }
+        }
+    }
     
 </style>

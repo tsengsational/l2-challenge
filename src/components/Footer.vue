@@ -1,10 +1,12 @@
 <template>
     <div class="footer" >
-        <h3>{{site.title}} </h3>
-        <div class="footer-content" >
-            <div v-for="(note, key) in site.footer" :key="key" class="footnote" >
-                <span class="footnote-key" >{{key}}</span>
-                <span class="footnote-content" >{{note}}</span>
+        <div class="footer-container" >
+            <h3>{{site.title}} </h3>
+            <div class="footer-content" >
+                <div v-for="(note, key) in site.footer" :key="key" class="footnote" >
+                    <span class="footnote-key" >{{key}}</span>
+                    <span class="footnote-content" >{{note}}</span>
+                </div>
             </div>
         </div>
     </div>
@@ -43,6 +45,34 @@ export default {
             .footnote-content {
                 display: inline-block;
                 width: 240px;
+            }
+        }
+    }
+
+    @media (min-width: $mobile-break-pt) {
+        .footer {
+            .footer-container {
+                width: 1100px;
+                position: relative;
+                left: calc((50vw) - 550px );
+                margin-bottom: 100px;
+                h3 {
+                    font-size: 24px;
+                }
+                .footnote {
+                    font-size: 14px;
+                    .footnote-key {
+                        width: 150px;
+                    }
+                    .footnote-content {
+                        width: 500px;
+                    }
+                }
+                .footer-content {
+                    position: absolute;
+                    left: 400px;
+                    top: 0;
+                }
             }
         }
     }

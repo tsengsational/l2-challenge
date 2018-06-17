@@ -39,7 +39,7 @@ export default {
         .hero-card {
             position: absolute;
             top: 100px;
-            left: 10vw;
+            right: 10vw;
             z-index: 1;
             background-color: $white;
             padding: 20px;
@@ -75,6 +75,32 @@ export default {
                 &:hover {
                     background-color: $midnight;
                 }
+            }
+        }
+    }
+
+    @media (min-width: $mobile-break-pt) {
+        .hero {
+            .img-container {
+                height: 500px;
+            }
+
+
+            .hero-card {
+                height: 225px;
+                width: 400px;
+                right: 20vw;
+                    h1 {
+                        left: 60px;
+                    }
+                    p {
+                        line-height: 24px;
+                        width: 300px;
+                        margin-bottom: 16px;
+                    }
+                    .hero-btn {
+                        left: 80px;
+                    }
             }
         }
     }

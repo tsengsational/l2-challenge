@@ -15,7 +15,7 @@ export default {
 
     .menu {
         position: fixed;
-        top: -100%;
+        top: -377px;
         width: 100%;
         padding: 16px 0;
         color: black;
@@ -41,7 +41,7 @@ export default {
         }
     }
 
-    @media (min-width: 400px) {
+    @media (min-width: $mobile-break-pt) {
         .menu.menuOpen {
             display: none;
         }

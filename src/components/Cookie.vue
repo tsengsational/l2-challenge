@@ -68,4 +68,24 @@ export default {
         }
     }
 
+    @media (min-width: $mobile-break-pt) {
+        .cookie {
+            margin-bottom: 32px;
+            .cookie-img {
+                width: 300px;
+                height: 200px;
+            }
+            .cookie-name {
+                left: 48px;
+                width: 250px;
+                font-size: 18px;
+            }
+            .cookie-backsplash {
+                width: 300px;
+                height: 240px;
+                left: 24px;
+            }
+        }
+    }
+
 </style>

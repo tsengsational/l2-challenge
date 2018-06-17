@@ -93,7 +93,10 @@ export default {
         border-radius: 10px;
     }
 
-    @media (min-width: 400px) {
+    @media (min-width: $mobile-break-pt) {
+        nav {
+            padding: 20px 0;
+        }
         .menu-btn {
             display: none;
         }
@@ -110,6 +113,14 @@ export default {
             display: block;
             span {
                 margin: 0 10px;
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    transition: color .3s;
+                    &:hover {
+                        color: $orange;
+                    }
+                }
             }
         }
     }
