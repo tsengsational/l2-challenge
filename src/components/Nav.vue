@@ -2,7 +2,7 @@
     <div class="nav-container">
         <nav>
             <div class="title">
-                {{site.title}}
+                <a href="#">{{site.title}}</a>
             </div>
             <div class="links">
                 <span v-for="(page, key) in site.pages" :key="key"><a href="#">{{page}}</a></span>
@@ -51,8 +51,12 @@ export default {
         padding: 10px 0;
         z-index: 3;
         .title {
-            color: $orange;
-            font-weight: 900;
+            a {
+                text-decoration: none;
+                color: $orange;
+                font-weight: 900;
+                cursor: pointer;
+            }
         }
     }
 
